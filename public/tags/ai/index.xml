@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on FEE Hub</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <description>Recent content in AI on FEE Hub</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>http://localhost:1313/departments/cse/level_2/ai/</link>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/departments/cse/level_2/ai/</guid>
+      <description>&lt;h2 id=&#34;course-resources&#34;&gt;Course Resources&lt;/h2&gt;&#xA;&lt;div class=&#34;resources-container&#34;&gt;&#xA;    &lt;!-- Lectures Section --&gt;&#xA;    &lt;div class=&#34;resource-section&#34;&gt;&#xA;        &lt;h3&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Lectures&lt;/h3&gt;&#xA;        &lt;div class=&#34;resource-cards&#34;&gt;&#xA;            &lt;a href=&#34;https://drive.google.com/drive/folders/1M2IlnCP9jgLkVP213HrZH0mmoUtXBrko?usp=drive_link&#34; target=&#34;_blank&#34; class=&#34;resource-card&#34;&gt;&#xA;                &lt;div class=&#34;resource-icon&#34;&gt;&#xA;                    &lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;&#xA;                &lt;/div&gt;&#xA;                &lt;div class=&#34;resource-info&#34;&gt;&#xA;                    &lt;h4&gt;Introduction to AI&lt;/h4&gt;&#xA;                    &lt;p&gt;Chapter 1 - Basic Concepts&lt;/p&gt;&#xA;                    &lt;span class=&#34;resource-meta&#34;&gt;PDF • 2.4 MB&lt;/span&gt;&#xA;                &lt;/div&gt;&#xA;            &lt;/a&gt;&#xA;            &lt;!-- Add more lecture resources here --&gt;&#xA;        &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;        &lt;div class=&#34;resource-section&#34;&gt;&#xA;        &lt;h3&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Lectures&lt;/h3&gt;&#xA;        &lt;div class=&#34;resource-cards&#34;&gt;&#xA;            &lt;a href=&#34;#&#34; class=&#34;resource-card&#34;&gt;&#xA;                &lt;div class=&#34;resource-icon&#34;&gt;&#xA;                    &lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;&#xA;                &lt;/div&gt;&#xA;                &lt;div class=&#34;resource-info&#34;&gt;&#xA;                    &lt;h4&gt;Introduction to AI&lt;/h4&gt;&#xA;                    &lt;p&gt;Chapter 1 - Basic Concepts&lt;/p&gt;&#xA;                    &lt;span class=&#34;resource-meta&#34;&gt;PDF • 2.4 MB&lt;/span&gt;&#xA;                &lt;/div&gt;&#xA;            &lt;/a&gt;&#xA;            &lt;!-- Add more lecture resources here --&gt;&#xA;        &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

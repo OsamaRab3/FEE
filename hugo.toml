@@ -1,0 +1,25 @@
+baseURL = "http://localhost:3000/"
+languageCode = "en-us"
+title = "FEE Hub"
+
+[permalinks]
+  departments = "/departments/:section/"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.80.0"
+
+[params]
+  description = "الداتا بتاعتك كلها في مكان واحد خف علوقية بقا وذاكر"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false

@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="department-content">
+    <h1 class="department-title">{{ .Site.Title }}</h1>
+    {{ with .Site.Params.description }}
+        <p class="department-description">{{ . }}</p>
+    {{ end }}
+    
+    <h2 class="section-title">College Departments</h2>
+    
+    <div class="departments-grid">
+        {{ range .Site.Sections }}
+            {{ if eq .Type "departments" }}
+                {{ range .Pages }}
+                    <a href="{{ .RelPermalink }}" class="department-card">
+                        <div class="card-icon">
+                            {{ if .Params.icon }}
+                                <i class="fas fa-{{ .Params.icon }}"></i>
+                            {{ else }}
+                                <i class="fas fa-university"></i>
+                            {{ end }}
+                        </div>
+                        <div class="card-body">
+                            <h3 class="department-name">{{ .Title }}</h3>
+                            {{ with .Params.short }}
+                                <div class="department-short">{{ . }}</div>
+                            {{ end }}
+                            {{ with .Description }}
+                                <p class="department-desc">{{ . }}</p>
+                            {{ end }}
+                            <span class="view-more">View Department <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}

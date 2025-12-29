@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }} | {{ .Parent.Title }} | {{ .Site.Title }}</title>
+    {{ $style := resources.Get "css/main.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="{{ .Parent.RelPermalink }}" class="back-link">← {{ .Parent.Title }}</a></h1>
+            <h2>{{ .Title }}</h2>
+        </div>
+    </header>
+    
+    <main class="container">
+        <div class="level-content">
+            {{ .Content }}
+            
+            {{ if .Pages }}
+                <h3>Courses</h3>
+                <div class="courses-grid">
+                    {{ range .Pages }}
+                        <div class="course-card">
+                            <h4>{{ .Title }}</h4>
+                            {{ if .Params.description }}
+                                <p class="course-description">{{ .Params.description }}</p>
+                            {{ end }}
+                            <a href="{{ .RelPermalink }}" class="btn">View Course</a>
+                        </div>
+                    {{ end }}
+                </div>
+            {{ end }}
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
