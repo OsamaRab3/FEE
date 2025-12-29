@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Control Engineering on FEE Hub</title>
-    <link>http://localhost:1313/departments/ece/</link>
+    <link>https://OsamaRab3.github.io/fee/departments/ece/</link>
     <description>Recent content in Control Engineering on FEE Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/departments/ece/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://OsamaRab3.github.io/fee/departments/ece/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
